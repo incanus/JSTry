@@ -13,25 +13,8 @@
 		DDDFDA66184D4822000502F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDDFDA64184D4822000502F9 /* InfoPlist.strings */; };
 		DDDFDA68184D4822000502F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFDA67184D4822000502F9 /* main.m */; };
 		DDDFDA6C184D4822000502F9 /* JSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFDA6B184D4822000502F9 /* JSTAppDelegate.m */; };
-		DDDFDA6F184D4822000502F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDFDA6D184D4822000502F9 /* Main.storyboard */; };
 		DDDFDA72184D4822000502F9 /* JSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFDA71184D4822000502F9 /* JSTViewController.m */; };
-		DDDFDA74184D4822000502F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDFDA73184D4822000502F9 /* Images.xcassets */; };
-		DDDFDA7B184D4822000502F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDFDA7A184D4822000502F9 /* XCTest.framework */; };
-		DDDFDA7C184D4822000502F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDFDA5B184D4822000502F9 /* Foundation.framework */; };
-		DDDFDA7D184D4823000502F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDFDA5F184D4822000502F9 /* UIKit.framework */; };
-		DDDFDA85184D4823000502F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDDFDA83184D4823000502F9 /* InfoPlist.strings */; };
-		DDDFDA87184D4823000502F9 /* JSTryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFDA86184D4823000502F9 /* JSTryTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DDDFDA7E184D4823000502F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDDFDA50184D4822000502F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDDFDA57184D4822000502F9;
-			remoteInfo = JSTry;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DDDFDA58184D4822000502F9 /* JSTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,15 +27,8 @@
 		DDDFDA69184D4822000502F9 /* JSTry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSTry-Prefix.pch"; sourceTree = "<group>"; };
 		DDDFDA6A184D4822000502F9 /* JSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSTAppDelegate.h; sourceTree = "<group>"; };
 		DDDFDA6B184D4822000502F9 /* JSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSTAppDelegate.m; sourceTree = "<group>"; };
-		DDDFDA6E184D4822000502F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDDFDA70184D4822000502F9 /* JSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSTViewController.h; sourceTree = "<group>"; };
 		DDDFDA71184D4822000502F9 /* JSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSTViewController.m; sourceTree = "<group>"; };
-		DDDFDA73184D4822000502F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DDDFDA79184D4822000502F9 /* JSTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDDFDA7A184D4822000502F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DDDFDA82184D4823000502F9 /* JSTryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSTryTests-Info.plist"; sourceTree = "<group>"; };
-		DDDFDA84184D4823000502F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDDFDA86184D4823000502F9 /* JSTryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSTryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +42,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDDFDA76184D4822000502F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDDFDA7B184D4822000502F9 /* XCTest.framework in Frameworks */,
-				DDDFDA7D184D4823000502F9 /* UIKit.framework in Frameworks */,
-				DDDFDA7C184D4822000502F9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				DDDFDA61184D4822000502F9 /* JSTry */,
-				DDDFDA80184D4823000502F9 /* JSTryTests */,
 				DDDFDA5A184D4822000502F9 /* Frameworks */,
 				DDDFDA59184D4822000502F9 /* Products */,
 			);
@@ -93,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				DDDFDA58184D4822000502F9 /* JSTry.app */,
-				DDDFDA79184D4822000502F9 /* JSTryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +65,9 @@
 		DDDFDA5A184D4822000502F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DDDFDA5B184D4822000502F9 /* Foundation.framework */,
 				DDDFDA5D184D4822000502F9 /* CoreGraphics.framework */,
+				DDDFDA5B184D4822000502F9 /* Foundation.framework */,
 				DDDFDA5F184D4822000502F9 /* UIKit.framework */,
-				DDDFDA7A184D4822000502F9 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,10 +77,8 @@
 			children = (
 				DDDFDA6A184D4822000502F9 /* JSTAppDelegate.h */,
 				DDDFDA6B184D4822000502F9 /* JSTAppDelegate.m */,
-				DDDFDA6D184D4822000502F9 /* Main.storyboard */,
 				DDDFDA70184D4822000502F9 /* JSTViewController.h */,
 				DDDFDA71184D4822000502F9 /* JSTViewController.m */,
-				DDDFDA73184D4822000502F9 /* Images.xcassets */,
 				DDDFDA62184D4822000502F9 /* Supporting Files */,
 			);
 			path = JSTry;
@@ -130,24 +91,6 @@
 				DDDFDA64184D4822000502F9 /* InfoPlist.strings */,
 				DDDFDA67184D4822000502F9 /* main.m */,
 				DDDFDA69184D4822000502F9 /* JSTry-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DDDFDA80184D4823000502F9 /* JSTryTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFDA86184D4823000502F9 /* JSTryTests.m */,
-				DDDFDA81184D4823000502F9 /* Supporting Files */,
-			);
-			path = JSTryTests;
-			sourceTree = "<group>";
-		};
-		DDDFDA81184D4823000502F9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFDA82184D4823000502F9 /* JSTryTests-Info.plist */,
-				DDDFDA83184D4823000502F9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +115,6 @@
 			productReference = DDDFDA58184D4822000502F9 /* JSTry.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDDFDA78184D4822000502F9 /* JSTryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDDFDA8D184D4823000502F9 /* Build configuration list for PBXNativeTarget "JSTryTests" */;
-			buildPhases = (
-				DDDFDA75184D4822000502F9 /* Sources */,
-				DDDFDA76184D4822000502F9 /* Frameworks */,
-				DDDFDA77184D4822000502F9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDDFDA7F184D4823000502F9 /* PBXTargetDependency */,
-			);
-			name = JSTryTests;
-			productName = JSTryTests;
-			productReference = DDDFDA79184D4822000502F9 /* JSTryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +124,6 @@
 				CLASSPREFIX = JST;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MapBox;
-				TargetAttributes = {
-					DDDFDA78184D4822000502F9 = {
-						TestTargetID = DDDFDA57184D4822000502F9;
-					};
-				};
 			};
 			buildConfigurationList = DDDFDA53184D4822000502F9 /* Build configuration list for PBXProject "JSTry" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +139,6 @@
 			projectRoot = "";
 			targets = (
 				DDDFDA57184D4822000502F9 /* JSTry */,
-				DDDFDA78184D4822000502F9 /* JSTryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFDA74184D4822000502F9 /* Images.xcassets in Resources */,
 				DDDFDA66184D4822000502F9 /* InfoPlist.strings in Resources */,
-				DDDFDA6F184D4822000502F9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDDFDA77184D4822000502F9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDDFDA85184D4823000502F9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,45 +165,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDDFDA75184D4822000502F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDDFDA87184D4823000502F9 /* JSTryTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DDDFDA7F184D4823000502F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDDFDA57184D4822000502F9 /* JSTry */;
-			targetProxy = DDDFDA7E184D4823000502F9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DDDFDA64184D4822000502F9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DDDFDA65184D4822000502F9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DDDFDA6D184D4822000502F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDDFDA6E184D4822000502F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DDDFDA83184D4823000502F9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDDFDA84184D4823000502F9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,48 +277,6 @@
 			};
 			name = Release;
 		};
-		DDDFDA8E184D4823000502F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSTry.app/JSTry";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSTry/JSTry-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JSTryTests/JSTryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		DDDFDA8F184D4823000502F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSTry.app/JSTry";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSTry/JSTry-Prefix.pch";
-				INFOPLIST_FILE = "JSTryTests/JSTryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,14 +294,6 @@
 			buildConfigurations = (
 				DDDFDA8B184D4823000502F9 /* Debug */,
 				DDDFDA8C184D4823000502F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DDDFDA8D184D4823000502F9 /* Build configuration list for PBXNativeTarget "JSTryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDDFDA8E184D4823000502F9 /* Debug */,
-				DDDFDA8F184D4823000502F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
